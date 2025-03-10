@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Project_Simple_Computer.srcs/sources_1/new/BCD.v" \
+"../../../../Project_Simple_Computer.srcs/sources_1/new/INPUT1.v" \
+"../../../../Project_Simple_Computer.srcs/sources_1/new/Simple_Calculator.v" \
+"../../../../Project_Simple_Computer.srcs/sim_1/new/INPUT1_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

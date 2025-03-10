@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Project_Simple_Computer.srcs/sources_1/imports/BCH_function/bch.v" \
+"../../../../Project_Simple_Computer.srcs/sim_1/imports/BCH_function/bin_to_hex_4bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

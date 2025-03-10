@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Output data after row 0: 0000000000001010
+Output data after row 1: 0000000001011010
+Output data after row 2: 0000111101011010
+Output data after row 3: 0000111101011010
+Output data after second round row 0: 0000111101011010
+Output data after reset: 0000000000000000
+$finish called at time : 70 ns : File "C:/Users/Admin/Logic Design with HDL/Project_Simple_Computer/Project_Simple_Computer.srcs/sim_1/new/INPUT1_tb.v" Line 110
